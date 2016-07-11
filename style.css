@@ -1,0 +1,65 @@
+@import url(https://fonts.googleapis.com/css?family=Quicksand:400,300,700);
+
+* {
+	box-sizing:border-box;
+}
+
+body {
+	padding-top: 80px;
+	margin: 0;
+
+}
+
+.head {
+	min-height: 180px;
+	}
+.row img {
+	padding: 0;
+}
+
+.gallery {
+	margin: 25px 0;
+}
+
+.tbl {
+	margin-top: 45px;
+	margin-bottom: 45px;
+}
+
+.comment {
+	max-width: 400px;
+	padding: 25px;
+}
+
+.movie {
+	margin-top: 40px ;
+	margin-bottom: 40px;
+}
+
+@media  screen and (max-width: 750px) {
+    body {
+    	padding-top: 0;
+    }
+    .navi{
+    	position: relative; 
+    }
+    
+}
+
+.sect {
+	padding: 30px;
+}
+
+.cont {
+	padding: 15px 45px;
+}
+
+.moda {
+	padding: 25px;
+}
+
+.escmod {
+	margin-bottom: 30px;
+}
+
+
