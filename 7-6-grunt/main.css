@@ -1,0 +1,56 @@
+@import url(https://fonts.googleapis.com/css?family=Quicksand:400,300,700);
+* {
+  display: flex; }
+
+body {
+  font-family: Quicksand;
+  margin: 0; }
+
+flex-container {
+  display: flex;
+  justify-content: flex-end; }
+
+ul {
+  list-style-type: none;
+  display: block; }
+
+li {
+  margin: 0 10px; }
+
+.jumbotron {
+  display: flex;
+  background: url(https://static.pexels.com/photos/37403/bora-bora-french-polynesia-sunset-ocean.jpg);
+  width: 100%;
+  height: 100vh;
+  padding-top: 42vh;
+  background-position: center; }
+
+h1 {
+  margin: 0;
+  font-size: 64px;
+  font-weight: 500;
+  color: #fff;
+  background-color: rgba(50, 50, 50, 0.5);
+  padding: 25px;
+  text-align: center;
+  border-radius: 15px; }
+
+flex-wr {
+  flex-wrap: wrap;
+  margin: 25px 0; }
+
+card {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 10px 25px; }
+
+in-card {
+  display: flex; }
+
+footer {
+  display: flex; }
+
+adress {
+  flex-grow: 2; }
+
+/*# sourceMappingURL=main.css.map */
